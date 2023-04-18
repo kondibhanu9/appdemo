@@ -20,8 +20,8 @@
 
 <body>
 	<% Application.logger.info("Request received by index.jsp"); %>
-	<h1>Welcome BHANU!</h1>
-	<img src="cloudcomputing.png">
+	<h1>Welcome </h1>
+	
 	If you are reading this message then the installation has gone well and the application is running. Congratulations!!
 	<form name="skl_form" class="form-inline" role="form" method="post" action="login_controller.jsp">
 		<div class="form-group">
