@@ -20,7 +20,7 @@
 
 <body>
 	<% Application.logger.info("Request received by home.jsp"); %>
-	<h1>Awesome <%= request.getSession(false).getAttribute("uid") %>!</h1>
+	<h1>Awesome <%= request.getSession(false).getAttribute("uid") %> BHANU!</h1>
 	If you are reading this message then this application has successfully routed through multiple JSPs and created a session.
 	<br/>
 	<img src="cloudcomputing.png"/>
